@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="de" class="scroll-smooth">
+<html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Seite verschoben - Wiktoria Zasada</title>
-    <meta http-equiv="refresh" content="7;url=https://wiktoriazasada.com">
+    <title>Page Moved - Wiktoria Zasada</title>
+    <meta http-equiv="refresh" content="7;url=http://wiktoriazasada.com">
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -87,11 +87,11 @@
                 <!-- Main Content -->
                 <div class="slide-up">
                     <h1 class="text-2xl font-bold text-primary mb-3">
-                        Diese Seite ist umgezogen!
+                        This page has moved!
                     </h1>
                     
                     <p class="text-accent mb-2">
-                        Meine Website ist auf eine neue Domain umgezogen:
+                        My website has moved to a new domain:
                     </p>
                     
                     <p class="text-lg font-semibold text-primary mb-6">
@@ -103,7 +103,7 @@
                 <div class="slide-up mb-6">
                     <div class="bg-gray-50 rounded-xl p-4 pulse-glow">
                         <div class="text-3xl font-bold text-primary mb-1" id="countdown">7</div>
-                        <p class="text-sm text-accent">Sekunden bis zur Weiterleitung</p>
+                        <p class="text-sm text-accent">seconds until redirect</p>
                     </div>
                 </div>
 
@@ -111,7 +111,7 @@
                 <div class="slide-up">
                     <a href="http://wiktoriazasada.com" 
                        class="inline-block bg-primary text-white px-6 py-3 rounded-xl font-medium hover:bg-gray-800 transition-all duration-300 transform hover:scale-105 hover:shadow-lg">
-                        Jetzt zur neuen Seite
+                        Go to new site now
                     </a>
                 </div>
 
@@ -163,13 +163,13 @@
                 document.querySelector('.pulse-glow').classList.add('animate-pulse');
                 
                 setTimeout(() => {
-                    window.location.href = 'https://wiktoriazasada.com';
+                    window.location.href = 'http://wiktoriazasada.com';
                 }, 500);
             }
         }, 1000);
 
         // Handle manual click
-        document.querySelector('a[href="https://wiktoriazasada.com"]').addEventListener('click', function(e) {
+        document.querySelector('a[href="http://wiktoriazasada.com"]').addEventListener('click', function(e) {
             clearInterval(timer);
         });
 
